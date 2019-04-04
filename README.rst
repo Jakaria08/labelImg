@@ -1,5 +1,5 @@
-LabelImg and Detection
-========
+LabelImg-Detection
+======================
 
 .. image:: https://img.shields.io/pypi/v/labelimg.svg
         :target: https://pypi.python.org/pypi/labelimg
@@ -7,18 +7,16 @@ LabelImg and Detection
 .. image:: https://img.shields.io/travis/tzutalin/labelImg.svg
         :target: https://travis-ci.org/tzutalin/labelImg
 
-LabelImg is a graphical image annotation tool.
+LabelImg-Detection  is a graphical image annotation tool and using this tool user can also train and test large satellite images. User can create small patches from large image, annotate it, create training and testing data, select model, train-test the model.
 
 It is written in Python and uses Qt for its graphical interface.
 
 Annotations are saved as XML files in PASCAL VOC format, the format used
 by `ImageNet <http://www.image-net.org/>`__.  Besdies, it also supports YOLO format
 
-.. image:: https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg
-     :alt: Demo Image
+User can use many deep learning models such as Faster RCNN Resnet or SSD Mobilenet
 
-.. image:: https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo.jpg
-     :alt: Demo Image
+.. image:: https://user-images.githubusercontent.com/7825643/55558143-aa1c8100-56a8-11e9-9e9b-0812fee812d8.png
 
 `Watch a demo video <https://youtu.be/p0nR2YsCY_U>`__
 
