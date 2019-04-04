@@ -46,71 +46,10 @@ Ubuntu Linux
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
-macOS
-^^^^
-Python 2 + Qt4
-
-.. code::
-
-    brew install qt qt4
-    brew install libxml2
-    make qt4py2
-    python labelImg.py
-    python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
-
-Python 3 + Qt5 (Works on macOS High Sierra)
-
-.. code::
-
-    brew install qt  # will install qt-5.x.x
-    brew install libxml2
-    make qt5py3
-    python3 labelImg.py
-    python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
-
-    As a side note, if mssing pyrcc5 or lxml, try
-    pip3 install pyqt5 lxml
-
-
-**NEW** Python 3 Virtualenv + Binary
-This avoids a lot of the QT / Python version issues,
-and gives you a nice .app file with a new SVG Icon
-in your /Applications folder. You can consider this script: build-tools/build-for-macos.sh
-
-.. code::
-
-
-    brew install python3
-    pip install pipenv
-    pipenv --three
-    pipenv shell
-    pip install py2app
-    pip install PyQt5 lxml
-    make qt5py3
-    rm -rf build dist
-    python setup.py py2app -A
-    mv "dist/labelImg.app" /Applications
-
-Windows
-^^^^^^^
-
-Download and setup `Python 2.6 or
-later <https://www.python.org/downloads/windows/>`__,
-`PyQt4 <https://www.riverbankcomputing.com/software/pyqt/download>`__
-and `install lxml <http://lxml.de/installation.html>`__.
-
-Open cmd and go to the `labelImg <#labelimg>`__ directory
-
-.. code::
-
-    pyrcc4 -o resources.py resources.qrc
-    python labelImg.py
-    python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
-
 Windows + Anaconda
 ^^^^^^^
 
-Download and install `Anaconda <https://www.anaconda.com/download/#download>`__ (Python 3+)
+Download and install `Anaconda <https://www.anaconda.com/download/#download>`__ (Python 3.6+)
 
 Open the Anaconda Prompt and go to the `labelImg <#labelimg>`__ directory
 
