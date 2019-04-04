@@ -31,23 +31,12 @@ Build from source
 ~~~~~~~~~~~~~~~~~
 
 Linux/Ubuntu/Mac requires at least `Python
-2.6 <https://www.python.org/getit/>`__ and has been tested with `PyQt
-4.8 <https://www.riverbankcomputing.com/software/pyqt/intro>`__.
+3.6 <https://www.python.org/getit/>`__ and has been tested with `PyQt
+5.8 <https://www.riverbankcomputing.com/software/pyqt/intro>`__.
 
 
 Ubuntu Linux
 ^^^^^^^^^^^^
-Python 2 + Qt4
-
-.. code::
-
-    sudo apt-get install pyqt4-dev-tools
-    sudo pip install lxml
-    make qt4py2
-    python labelImg.py
-    python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
-
-Python 3 + Qt5
 
 .. code::
 
