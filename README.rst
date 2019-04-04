@@ -45,6 +45,10 @@ Ubuntu Linux
     make qt5py3
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+    
+Put the labelImg folder in the home directory, for example: /home/jakaria/
+
+`Install Tensorflow with GPU support <https://medium.com/@naomi.fridman/install-conda-tensorflow-gpu-and-keras-on-ubuntu-18-04-1b403e740e25>`_
 
 Windows + Anaconda
 ^^^^^^^
@@ -64,7 +68,7 @@ Open the Anaconda Prompt and go to the `labelImg <#labelimg>`__ directory
 Usage
 -----
 Annotation
-~~~~~~~~~~
+----------
 Steps (PascalVOC)
 ~~~~~
 
