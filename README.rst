@@ -18,7 +18,11 @@ User can use many deep learning models such as Faster RCNN Resnet or SSD Mobilen
 
 .. image:: https://user-images.githubusercontent.com/7825643/55558143-aa1c8100-56a8-11e9-9e9b-0812fee812d8.png
 
-`Watch a demo video <https://youtu.be/p0nR2YsCY_U>`__
+`Watch a demo video <https://youtu.be/FFe5Y7u7APs>`__ [Labeling]
+
+`Watch a demo video <https://youtu.be/WNz9Djt9ETc>`__ [Training]
+
+`Watch a demo video <https://youtu.be/VCEd9WKQpWA>`__ [Testing]
 
 Installation
 ------------------
